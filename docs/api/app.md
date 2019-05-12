@@ -408,6 +408,8 @@ non-minimized.
 This event is guaranteed to be emitted after the `ready` event of `app`
 gets emitted.
 
+**Note:** It is only emitted when the second instance calls `app.requestSingleInstanceLock()`.
+
 **Note:** Extra command line arguments might be added by Chromium,
 such as `--original-process-start-time`.
 
